@@ -1,0 +1,264 @@
+
+@font-face {
+    font-family: 'roboto';
+    src: url('assets/fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('assets/fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+
+:root{
+    --col-tomato: hsla(4, 100%, 67%);
+
+}
+
+
+/* prototype */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+/* end of prototype */
+
+
+/* desktop POV */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  max-width: 100%;
+  height: 100vh;
+  margin: auto;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: hsl(235, 18%, 26%);
+}
+
+ p, .span-001 {
+    font-family:'roboto', sans-serif;
+    color: hsl(234, 29%, 20%);
+    font-weight: normal;
+}
+h1{
+    font-family:'roboto', sans-serif;
+    color: hsl(234, 29%, 20%);
+    font-weight: bold;
+    font-size: 3rem;   
+}
+.span-001{
+    margin-left: 1.35rem;
+}
+
+#ultimate{
+    width: 52rem;
+    background-color: hsl(0, 0%, 100%);
+    max-height: auto;
+    border-radius: 1.5rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+  #second{
+    padding: 5px;
+    width: 44%;
+}
+
+#alt-img{
+    display: none;
+}
+
+#first{
+    padding-top: 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    width: 56%;
+}
+
+#middle{
+    margin-bottom: 3rem;
+}
+
+.ep1{
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem;
+}
+
+.inner-sx{
+    margin-top: 0.75rem;
+    display: flex;
+}
+
+ #wahala{
+    position: relative;
+    display: flex;
+ }
+#strong01{
+    font-family:'roboto', sans-serif;
+    color: hsl(234, 29%, 20%);
+}
+#strong02{
+    font-family:'roboto', sans-serif;
+    color:var(--col-tomato);
+    position: absolute;
+    right: 0px;
+    display: none;
+}
+
+/* dynamics */
+input.on{
+    color: var(--col-tomato);
+    display: block;
+    background-color: hsl(3, 100%, 92%);
+}
+
+/* end */
+
+input{
+    width: 100%;
+    height: 3rem;
+    border-radius: 0.45rem;
+    border-width: 0.5px;
+    cursor: pointer;
+}
+
+#input-001{
+    margin-top: 12px;
+    padding: 1.25rem;
+}
+
+#input-002{
+    margin-top: 2rem;
+    color: white;
+    font-size: medium;
+    background-color: hsl(235, 18%, 26%);
+    font-weight: bold;
+    margin-bottom: 3rem;
+    transition: none;
+}
+
+
+#input-002:hover, #clone:hover{
+    background-image:linear-gradient(to right,  hsl(341, 100%, 65%), var(--col-tomato));
+    filter: drop-shadow(0 17px 10px hsl(4, 100%, 79%)) drop-shadow(0 1px 1px hsl(4, 80%, 86%));
+
+}
+
+
+
+
+/* success msg */
+#subset{
+    max-width: 27rem;
+    background-color: hsl(0, 0%, 100%);
+    /* max-height: auto; */
+    border-radius: 1.5rem;
+    padding: 2.3rem 3rem;
+    margin:2rem 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.extra{
+    margin-top: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+#clone{
+    margin-top: 2rem;
+    color: white;
+    font-size: medium;
+    background-color: hsl(235, 18%, 26%);
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* small screen size */
+@media (max-width: 860px) { 
+    body{
+        padding: 0px;
+       
+    }
+    #ultimate{
+        width: 23.3rem;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        border-radius: 0rem;
+        padding: 0px;
+    }
+    #alt-img{
+        display: flex;
+    }
+    .billboard{
+        display: none;
+    }
+    
+    #second{
+    padding: 0px;
+    width: 100%;
+   }
+
+   
+#first{
+    padding-top: 2.1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: 100%;
+}
+
+.inner-sx{
+    margin-top: 1rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+#input-002{
+    margin-top: 1.3rem;
+}
+
+/* success msg */
+#subset{
+    width: 23.3rem;
+    background-color: hsl(0, 0%, 100%);
+    height: 100vh;
+    border-radius: 0rem;
+    padding: 2.3rem 1.5rem;
+    margin:2rem 1px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 8.8rem;
+}
+h1{
+    font-size: 2.4rem;
+}
+#clone{
+    margin-top: 12rem;
+    padding: 1rem;
+}
+
+
+}
