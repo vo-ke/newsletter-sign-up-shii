@@ -45,7 +45,7 @@ Users should be able to:
 
 ### What I learned
 
-Nothing much, just that i decided to use trad. CSS this time around as I'm beginning to abandon  it or tailwind css
+Nothing much, just that i decided to use trad. CSS this time around as I'm beginning to abandon  it for tailwind css
 
 
 ### Useful resources

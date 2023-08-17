@@ -256,9 +256,16 @@ h1{
     font-size: 2.4rem;
 }
 #clone{
-    margin-top: 12rem;
+    margin-top: 8.5rem;
     padding: 1rem;
 }
 
 
+}
+
+@media (max-width: 392px) { 
+    #clone{
+        margin-top: 12rem;
+        padding: 1rem;
+    }
 }
