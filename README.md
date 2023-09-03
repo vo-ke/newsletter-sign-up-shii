@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]
-- Live Site URL: [http://127.0.0.1:5501/index.html]
+- Solution URL: [[http://127.0.0.1:5501/index.html]
+- Live Site URL:[https://vo-ke.github.io/newsletter-sign-up-shii/] 
 
 ## My process
 
